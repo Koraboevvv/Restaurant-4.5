@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="icon" href="./assets/LOGO (18).svg">
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="font-[tinos] h-[9000px]">
+    <header class="absolute z-40 w-full">
+        <nav class="container font-[serif] mt-[50px] text-[#fff] font-bold text-[14px]">
+            <div>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <img src="./assets/LOGO (18).svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-[30px]">
+                        <ul class="flex gap-[23px] max-[650px]:hidden">
+                            <li>
+                                <a href=""><span>ГЛАВНАЯ</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>МЕНЮ</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>О НАС</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>БРОНЬ</span></a>
+                            </li>
+                            <img src="./assets/cart.svg" alt="">
+                        </ul>
+                        <div class="flex gap-[50px]  pl-[20px] border-l-[2px] border-[#aaa] max-[950px]:hidden">
+                            <div>
+                                <div class="max-w-[165px] ">
+                                    <div class="flex gap-[8px]">
+                                        <img src="./assets/phone.svg" alt="">
+                                        <span>+999-888-76-54</span>
+                                    </div>
+                                    <p class="text-[14px] font-[400]">Свяжитесь с нами для 
+                                        бронирования</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="max-[350px]:hidden rounded-[3px] text-[14px] py-[11px] cursor-pointer duration-200 border-[#ff7400] hover:bg-transparent  border-[2px] px-[11px] bg-[#FF7400]">ЗАКАЗ СТОЛИКА</button>
+                    </div>
+                    <img class="hidden max-[350px]:block" src="./assets/Group.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero min-h-[800px] relative">
+            <div class="container">
+                <div class="flex justify-center max-[1000px]:block">
+                    <div class="flex flex-col mt-[250px] max-[1000px]:w-[100%] text-[#D67E35] items-center space-y-[-5px]">
+                        <h2 class="text-[50px] max-[600px]:text-[30px]">Добро пожаловать в</h2>
+                        <h1 class="text-[80px] max-[600px]:text-[40px]">Наш ресторан</h1>
+                        <h3 class="text-[18px] max-[600px]:text-[15px] mt-[10px] text-[#fff]">ДОМ ЛУЧШЕЙ ЕДЫ</h3>
+                        <button class="mt-[21px] px-[47px] rounded-[3px] py-[14px] text-[#fff] font-bold bg-[#FF7400] duration-200 hover:bg-transparent border-[#FF7400] cursor-pointer  border-[2px]">MENU</button>
+                    </div>
+                    <div class="w-[50%] max-[1000px]:hidden">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="absolute z-40 w-full top-[740px]">
+            <div class="container">
+                <div class="grid grid-cols-3 gap-[31px] font-[400] text-[26px] max-[1000px]:grid-cols-2 max-[600px]:grid-cols-1">
+                    <div class="card items-center text-center bg-[#fff] rounded-[4px]  pt-[60px] px-[15px] pb-[10px]">
+                        <img class="mx-auto" src="./assets/Mask Group.svg" alt="">
+                        <h3 class="mb-[2px]">Магическая <span class="text-[#BC9060]">Атмосфера</span></h3>
+                        <p class="text-[#656363] text-[20px]">В нашем заведении царит магическая атмосфера
+                            наполненная вкусными ароматами</p>
+                    </div>
+                    <div class="card items-center text-center bg-[#fff] rounded-[4px] pt-[60px] px-[15px] pb-[10px]">
+                        <img class="mx-auto" src="./assets/Mask Group.svg" alt="">
+                        <h3 class="mb-[2px]">Лучшее качество  <span class="text-[#BC9060]">Еды</span></h3>
+                        <p class="text-[#656363] text-[20px]">Качество нашей 
+                            Еды - отменное!
+                            </p>
+                    </div>
+                    <div class="card items-center text-center bg-[#fff] rounded-[4px] pt-[60px] px-[15px] pb-[25px] max-[1000px]:col-span-3 max-[600px]:col-span-1">
+                        <img class="mx-auto" src="./assets/Mask Group.svg" alt="">
+                        <h3 class="mb-[2px]">Недорогая  <span class="text-[#BC9060]">Еда</span></h3>
+                        <p class="text-[#656363] text-[20px]">Стоимость нашей Еды
+                            зависит только от ее
+                            количества. Качество
+                            всегда на высоте!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
