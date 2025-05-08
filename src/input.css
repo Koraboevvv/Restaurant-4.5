@@ -18,6 +18,15 @@
 }
 
 
-.card{
+.card:hover{
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.section__img{
+    background: url("../assets/delicious-1866631_1920\ 1.svg") no-repeat center/cover;   
+}
+
+.footer{
+    background: url("../assets/st-826688_1920\ 1.svg") no-repeat center/cover;
 }
