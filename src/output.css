@@ -164,8 +164,17 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
   .relative {
     position: relative;
+  }
+  .static {
+    position: static;
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
   }
   .top-\[740px\] {
     top: 740px;
@@ -259,6 +268,9 @@
   }
   .w-\[60\%\] {
     width: 60%;
+  }
+  .w-\[100\%\] {
+    width: 100%;
   }
   .w-full {
     width: 100%;
